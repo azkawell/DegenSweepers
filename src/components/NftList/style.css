@@ -1,0 +1,64 @@
+.nftlistTitle {
+  font-family: 'AnotherDanger';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 55px;
+  /* identical to box height */
+  color: #FCDD33;
+  text-align: left;
+  margin: 0;
+}
+
+.swiper-button-next {
+  width: 75px;
+  height: 74px;
+
+  background: url('../../assets/img/Left\ Arrow\ 9.png');
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+  color: transparent;
+}
+
+.swiper-button-prev {
+  width: 75px;
+  height: 74px;
+
+  background: url('../../assets/img/Left\ Arrow\ 9.png');
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  color: transparent;
+}
+
+.swiper-button-lock {
+  display: block;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.NftList {
+  position: relative;
+  height: 100%;
+}
+
+.swiper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* padding: 0 9% 0 0; */
+}
+
+.swiper-wrapper {
+  /* width: 90%; */
+}
+
+@media only screen and (max-width: 868px) {
+  .swiper {
+    /* padding: 0 9% 0 0; */
+  }
+  
+  .swiper-wrapper {
+    /* width: 85%; */
+  }
+}
